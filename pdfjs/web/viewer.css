@@ -956,6 +956,7 @@
   --scale-factor: 1;
 
   padding-bottom: var(--pdfViewer-padding-bottom);
+  background-color: fuchsia;
 }
 
 .pdfViewer .canvasWrapper {
@@ -1394,6 +1395,7 @@ body {
   z-index: 9999;
   cursor: default;
   font: message-box;
+  width: 100%;
 }
 
 :is(.toolbar, .editorParamsToolbar, .findbar, #sidebarContainer)
@@ -1437,6 +1439,7 @@ body {
 
 #toolbarViewer {
   height: 32px;
+  background-color: aqua;
 }
 
 #loadingBar {
