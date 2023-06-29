@@ -6,14 +6,8 @@
     width: 100%;
     height: 600px;
 }
-
-#contenedor::-webkit-scrollbar {
-    width: 7px;
-    background-color: fuchsia;
+body{
+    border-right: 7px solid black;
+    
 }
 
-#contenedor::-webkit-scrollbar-thumb {
-    background-color: aqua;
-    border-radius: 7px;
-    height: 50px;
-}
